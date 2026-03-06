@@ -27,7 +27,6 @@ public class RealXboxController implements XboxController {
 
     @Override
     public void moveLeftStick(float x, float y){
-        System.out.println("Entrada joystick izquierdo (Xbox) "+ x + "," +y);
-        
+        System.out.println("Entrada joystick izquierdo (Xbox) "+ x + "," +y);  
     }
 }
